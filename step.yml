@@ -1,0 +1,20 @@
+name: npm-ci
+version: 1.0.0
+summary: npm-ci step for strict package installs
+tags:
+- npm
+- node
+- javascript
+- ci
+properties:
+- name: clear-cache-on-failed
+  type: bool
+  default: true
+  required: false
+- name: use-cache
+  type: bool
+  default: true
+  required: false
+- name: options
+  type: string
+  required: false
